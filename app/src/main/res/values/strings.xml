@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">IPG</string>
     <string name="desenvolvido_por_vagnerbj">By: Vagner Bom Jesus</string>
+    <string name="Comfirme">Confirme</string>
+    <string name="realmenteSair">Desejas sair app?</string>
 </resources>
