@@ -3,4 +3,7 @@
     <string name="desenvolvido_por_vagnerbj">By: Vagner Bom Jesus</string>
     <string name="Comfirme">Confirme</string>
     <string name="realmenteSair">Desejas sair app?</string>
+    <string name="estg">ESTG-IPG</string>
+    <string name="sigara">SIGARRA IPG</string>
+    <string name="moodle">MOODLE IPG</string>
 </resources>

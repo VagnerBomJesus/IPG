@@ -13,9 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-
-
     //Caixa de dialogo para sair
     public void onBackPressed(){
         AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(this);

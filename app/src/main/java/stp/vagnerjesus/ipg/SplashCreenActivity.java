@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 public class SplashCreenActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN_TIME_OUT = 3050;//2 segundos
+    private static int SPLASH_SCREEN_TIME_OUT = 3000;//2 segundos
 
     //Variavel que pretendo animar na intro
     View primeiro,segundo,terceiro,quarto,quinto,sexta;
