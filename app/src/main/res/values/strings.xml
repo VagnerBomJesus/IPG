@@ -6,4 +6,5 @@
     <string name="estg">ESTG-IPG</string>
     <string name="sigara">SIGARRA IPG</string>
     <string name="moodle">MOODLE IPG</string>
+    <string name="mensagemErroHTTP">O site é Inseguro</string>
 </resources>
