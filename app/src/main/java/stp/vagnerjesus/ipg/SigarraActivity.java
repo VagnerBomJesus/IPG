@@ -32,8 +32,8 @@ public class SigarraActivity extends AppCompatActivity {
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setDisplayZoomControls(false);
 
-        webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-        webView.setScrollbarFadingEnabled(false);
+        //webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        //webView.setScrollbarFadingEnabled(false);
 
         final ProgressBar progressBar = findViewById(R.id.progressBarr);
         progressBar.setVisibility(View.INVISIBLE);
@@ -52,12 +52,12 @@ public class SigarraActivity extends AppCompatActivity {
         });
     }
 
-    @Override
+    /*@Override
     public void onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack();
         } else {
             super.onBackPressed();
         }
-    }
+    }*/
 }
