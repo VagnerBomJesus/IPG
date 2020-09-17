@@ -4,7 +4,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,5 +37,20 @@ public class MainActivity extends AppCompatActivity {
         });
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
+    }
+
+    public void onclikEstg(View view) { //Botão "Estg"
+        Intent i = new Intent(this, EstgActivity.class);
+        startActivity(i);
+    }
+
+    public void onclikSigarra(View view) { //Botão "Sigarra"
+        Intent i = new Intent(this, EstgActivity.class);
+        startActivity(i);
+    }
+
+    public void onclikMoodle(View view) { //Botão "Moodle"
+        Intent i = new Intent(this, EstgActivity.class);
+        startActivity(i);
     }
 }

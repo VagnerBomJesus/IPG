@@ -20,6 +20,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
+        android:onClick="onclikEstg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -34,6 +35,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
+        android:onClick="onclikSigarra"
         app:layout_constraintEnd_toEndOf="@+id/buttonEstg"
         app:layout_constraintStart_toStartOf="@+id/buttonEstg"
         app:layout_constraintTop_toBottomOf="@+id/buttonEstg" />
@@ -49,6 +51,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
+        android:onClick="onclikMoodle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonSigara"
         app:layout_constraintStart_toStartOf="@+id/buttonSigara"
