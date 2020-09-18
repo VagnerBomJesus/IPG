@@ -4,36 +4,42 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-public class SigarraActivity extends AppCompatActivity {
+public class CantinaActivity extends AppCompatActivity {
+
     private WebView webView;
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()){
+            webView.goBack();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sigarra);
+        setContentView(R.layout.activity_cantina);
+
 
         webView = (WebView) findViewById(R.id.webview);
         //webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://cloud.sysnovare.pt/ipg/si_main");
+        webView.loadUrl("https://ipg.luope.com/index.html");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        //webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setLoadWithOverviewMode(true);
-        webView.getSettings().setUseWideViewPort(true);
-
         webView.getSettings().setSupportZoom(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setDisplayZoomControls(false);
-
-        webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-        webView.setScrollbarFadingEnabled(true);
 
         final ProgressBar progressBar = findViewById(R.id.progressBarr);
         progressBar.setVisibility(View.INVISIBLE);
@@ -51,13 +57,4 @@ public class SigarraActivity extends AppCompatActivity {
             }
         });
     }
-
-    /*@Override
-    public void onBackPressed() {
-        if (webView.canGoBack()) {
-            webView.goBack();
-        } else {
-            super.onBackPressed();
-        }
-    }*/
 }

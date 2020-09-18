@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MoodleActivity"></activity>
+        <activity android:name=".CantinaActivity"></activity>
+        <activity android:name=".MoodleActivity" />
         <activity android:name=".SigarraActivity" />
         <activity android:name=".EstgActivity" />
         <activity android:name=".SplashCreenActivity">

@@ -19,11 +19,14 @@ public class MainActivity extends AppCompatActivity {
     }
     //Caixa de dialogo para sair
     public void onBackPressed(){
-        AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(this);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Light_Dialog_Alert);
+       // AlertDialog.Builder alerta = new AlertDialog.Builder(this,
+                //android.R.style.Theme_Material_Light_Dialog_Alert);
         alertDialogBuilder.setTitle(getString(R.string.Comfirme));
         alertDialogBuilder.setIcon(R.drawable.ic_exit);
         alertDialogBuilder.setMessage(getString(R.string.realmenteSair));
         alertDialogBuilder.setCancelable(false);
+
         alertDialogBuilder.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -55,6 +58,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclikMoodle(View view) { //Botão "Moodle"
         Intent i = new Intent(this, MoodleActivity.class);
+        startActivity(i);
+    }
+
+    public void onclikCantina(View view) { //Botão "Loupe"
+        Intent i = new Intent(this, CantinaActivity.class);
         startActivity(i);
     }
 }

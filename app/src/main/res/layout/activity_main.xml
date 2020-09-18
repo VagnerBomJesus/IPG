@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black_splashScreen"
     tools:context=".MainActivity">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
+
     android:layout_height="match_parent">
 
 
@@ -45,17 +47,33 @@
         android:layout_width="294dp"
         android:layout_height="93dp"
         android:layout_marginTop="64dp"
-        android:layout_marginBottom="100dp"
         android:background="@drawable/button_shape"
+        android:onClick="onclikMoodle"
         android:text="@string/moodle"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
-        android:onClick="onclikMoodle"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonSigara"
         app:layout_constraintStart_toStartOf="@+id/buttonSigara"
         app:layout_constraintTop_toBottomOf="@+id/buttonSigara" />
+
+
+    <Button
+        android:id="@+id/buttonCantina"
+        android:layout_width="294dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button_shape"
+        android:onClick="onclikCantina"
+        android:text="@string/Cantina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMoodle"
+        app:layout_constraintStart_toStartOf="@+id/buttonMoodle"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMoodle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
