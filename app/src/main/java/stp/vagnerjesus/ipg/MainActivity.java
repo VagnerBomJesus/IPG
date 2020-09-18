@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onclikEstg(View view) { //Botão "Estg"
-        //Intent i = new Intent(this, EstgActivity.class);
-        //startActivity(i);
-        Toast toast = Toast.makeText(this, R.string.mensagemErroHTTP, Toast.LENGTH_LONG);
-        toast.show();
+        Intent i = new Intent(this, EstgActivity.class);
+        startActivity(i);
+        //Toast toast = Toast.makeText(this, R.string.mensagemErroHTTP, Toast.LENGTH_LONG);
+       // toast.show();
     }
 
     public void onclikSigarra(View view) { //Botão "Sigarra"
