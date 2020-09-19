@@ -3,9 +3,18 @@
     <string name="desenvolvido_por_vagnerbj">By: Vagner Bom Jesus</string>
     <string name="Comfirme">Confirme</string>
     <string name="realmenteSair">Desejas sair app?</string>
-    <string name="estg">ESTG-IPG</string>
-    <string name="sigara">SIGARRA-IPG</string>
+    <string name="estg">Escola Superior de Tecnologia e Gestão</string>
+    <string name="sigara">Sistema de Gestão Académica</string>
     <string name="moodle">MOODLE-IPG</string>
     <string name="mensagemErroHTTP">O site é Inseguro</string>
     <string name="Cantina">CANTINA-IPG</string>
+    <string name="politecnico_da_gurada">Instituto Politécnico da Guarda</string>
+    <string name="sigara_ipg">SIGARRA</string>
+    <string name="estg_ipg">ESTG</string>
+    <string name="Esecd_descri">Escola Superior de Educação, Comunicação e Desporto</string>
+    <string name="esecd">ESECD</string>
+    <string name="ess">ESS</string>
+    <string name="escola_superior_de_sa_de">Escola Superior de Saúde</string>
+    <string name="esth">ESTH</string>
+    <string name="Cantina_des">Sistema de Gestão das Cantinas</string>
 </resources>

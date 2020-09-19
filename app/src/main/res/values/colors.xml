@@ -8,4 +8,13 @@
     <color name="black_splashScreen">#ebf2ff</color>
     <color name="lightGrayColor">#fafafa</color>
     <color name="whiteColor">#fff</color>
+
+    <color name="selectButton1">#f8863d</color>
+    <color name="selectButton0">#e40d2e</color>
+    <color name="selectButton2">#7CBA01</color>
+    <color name="selectButton3">#00b4d7</color>
+    <color name="selectButton4">#006A84</color>
+    <color name="selectButton5">#FBC817</color>
+    <color name="selectButton6">#AB7038</color>
+    <color name="selectButton7">#ea8516</color>
 </resources>

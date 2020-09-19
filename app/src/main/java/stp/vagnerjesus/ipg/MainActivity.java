@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    public void onclikIpg(View view) {//botão "IPG"
+        Intent i = new Intent(this, IpgActivity.class);
+        startActivity(i);
+    }
     public void onclikEstg(View view) { //Botão "Estg"
         Intent i = new Intent(this, EstgActivity.class);
         startActivity(i);
@@ -63,6 +67,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclikCantina(View view) { //Botão "Loupe"
         Intent i = new Intent(this, CantinaActivity.class);
+        startActivity(i);
+    }
+
+
+    public void onclikEsecd(View view) {//Botão "Esecd"
+        Intent i = new Intent(this, EsecdActivity.class);
+        startActivity(i);
+    }
+
+    public void onclikEsth(View view) {
+        Intent i = new Intent(this, EsthActivity.class);
+        startActivity(i);
+    }
+
+    public void onclikEss(View view) {
+        Intent i = new Intent(this, EssActivity.class);
         startActivity(i);
     }
 }

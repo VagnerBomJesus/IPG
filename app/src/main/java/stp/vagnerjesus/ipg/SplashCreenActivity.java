@@ -39,23 +39,23 @@ public class SplashCreenActivity extends AppCompatActivity {
         iconAnimation = AnimationUtils.loadAnimation(this,R.anim.icon_animation);
 
         //Gancho das variaveis
-        primeiro = findViewById(R.id.primeira_line);
+        /*primeiro = findViewById(R.id.primeira_line);
         segundo = findViewById(R.id.segunda_line);
         terceiro = findViewById(R.id.terceira_line);
         quarto = findViewById(R.id.quarta_line);
         quinto = findViewById(R.id.quinta_line);
-        sexta = findViewById(R.id.sexta_line);
+        sexta = findViewById(R.id.sexta_line);*/
 
         icon = findViewById(R.id.logo_image);
         descDesenvolvimento = findViewById(R.id.tagDesenvolvimento);
 
 
-        primeiro.setAnimation(topAnimation);
+        /*primeiro.setAnimation(topAnimation);
         segundo.setAnimation(topAnimation);
         terceiro.setAnimation(topAnimation);
         quarto.setAnimation(topAnimation);
         quinto.setAnimation(topAnimation);
-        sexta.setAnimation(topAnimation);
+        sexta.setAnimation(topAnimation);*/
 
         icon.setAnimation(iconAnimation);
         descDesenvolvimento.setAnimation(bottonAnimation);

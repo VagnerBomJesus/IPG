@@ -10,16 +10,18 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-public class EstgActivity extends AppCompatActivity {
+public class EsthActivity extends AppCompatActivity {
     private WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_estg);
+        setContentView(R.layout.activity_esth);
+
 
         webView = (WebView) findViewById(R.id.webview);
         //webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.estg.ipg.pt/");
+        webView.loadUrl("http://www.esth.ipg.pt/");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -50,14 +52,5 @@ public class EstgActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.INVISIBLE);
             }
         });
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (webView.canGoBack()) {
-            webView.goBack();
-        } else {
-            super.onBackPressed();
-        }
     }
 }

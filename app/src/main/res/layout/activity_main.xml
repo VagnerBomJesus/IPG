@@ -6,6 +6,367 @@
     android:layout_height="match_parent"
     android:background="@color/black_splashScreen"
     tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_menu"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_point_vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textAllCaps="true"/>-->
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/button_select_shape0"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo"
+                        android:padding="25dp"
+                        android:text="IPG"
+                        android:textColor="@color/black_splashScreen"
+                        android:textSize="30dp" />
+                    <Button
+                        android:id="@+id/buttonIpgID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/politecnico_da_gurada"
+                        android:padding="20dp"
+                        android:onClick="onclikIpg"
+                        android:fontFamily="@font/baloo"
+                        android:background="#00000000"
+                        android:layout_alignParentBottom="true"/>
+
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ipg1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="-30dp"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape4"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/estg_ipg"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estg"
+                    android:onClick="onclikEstg"
+                    android:padding="20dp"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ipg4"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/esecd"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Esecd_descri"
+                    android:padding="20dp"
+                    android:onClick="onclikEsecd"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ipg1"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape3"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/ess"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/escola_superior_de_sa_de"
+                    android:padding="20dp"
+                    android:onClick="onclikEss"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ipg3"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape2"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/esth"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Escola Superior de Turismo e Hotelaria"
+                    android:padding="20dp"
+                    android:onClick="onclikEsth"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ipg2"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape0"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/sigara_ipg"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sigara"
+                    android:padding="20dp"
+                    android:onClick="onclikSigarra"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ipg2"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape7"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/moodle"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sigara"
+                    android:padding="20dp"
+                    android:onClick="onclikMoodle"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/moodle"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_select_shape7"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="@string/Cantina"
+                    android:textColor="@color/black_splashScreen"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cantina_des"
+                    android:padding="20dp"
+                    android:onClick="onclikCantina"
+                    android:fontFamily="@font/baloo"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-30dp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <!--
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
 
@@ -76,4 +437,5 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonMoodle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+-->
 </ScrollView>
