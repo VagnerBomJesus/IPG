@@ -80,11 +80,11 @@
                 </RelativeLayout>
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/ipg1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ipg0"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="-30dp"/>
+                    android:layout_margin="10dp"/>
             </RelativeLayout>
 
 
@@ -121,11 +121,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/ipg4"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
             <RelativeLayout
@@ -160,11 +160,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/ipg1"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
             <RelativeLayout
@@ -199,11 +199,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/ipg3"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
             <RelativeLayout
@@ -238,11 +238,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/ipg2"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
             <RelativeLayout
@@ -276,11 +276,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/ipg2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ipg0"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
             <RelativeLayout
@@ -315,12 +315,13 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/moodle"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:layout_margin="10dp"/>
         </RelativeLayout>
+
 
             <RelativeLayout
             android:layout_width="match_parent"
@@ -329,7 +330,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/button_select_shape7"
+                android:background="@drawable/button_select_shape5"
                 android:layout_margin="5dp">
 
                 <TextView
@@ -354,10 +355,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="-30dp"/>
+                android:src="@drawable/ipg5"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
 
