@@ -2,7 +2,7 @@
     <string name="app_name">IPG</string>
     <string name="desenvolvido_por_vagnerbj">By: Vagner Bom Jesus</string>
     <string name="Comfirme">Confirme</string>
-    <string name="realmenteSair">Desejas sair app?</string>
+    <string name="realmenteSair">Desejas Realmente sair app?</string>
     <string name="estg">Escola Superior de Tecnologia e Gestão</string>
     <string name="sigara">Sistema de Gestão Académica</string>
     <string name="moodle">MOODLE-IPG</string>
@@ -17,4 +17,6 @@
     <string name="escola_superior_de_sa_de">Escola Superior de Saúde</string>
     <string name="esth">ESTH</string>
     <string name="Cantina_des">Sistema de Gestão das Cantinas</string>
+    <string name="sim">Sim</string>
+    <string name="Nao">Não</string>
 </resources>

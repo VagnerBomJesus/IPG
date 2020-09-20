@@ -5,6 +5,12 @@
     <color name="colorFundo">#ebf2ff</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSim">#4BB543</color>
+    <color name="colorAviso">#FFCC00</color>
+    <color name="colorNatural">#434343</color>
+    <color name="colorNao">#CC0000</color>
+    <color name="colorText">#212121</color>
+
     <color name="black_splashScreen">#ebf2ff</color>
     <color name="lightGrayColor">#fafafa</color>
     <color name="whiteColor">#fff</color>
