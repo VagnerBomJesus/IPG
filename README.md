@@ -18,4 +18,7 @@
     </ul>
 </ul>
 <br>
+
+<h5>Programa Funcinando em Gif</h5>
+
 ![GIF-200924_160721 1](https://user-images.githubusercontent.com/48354097/94166621-6fea0500-fe83-11ea-9103-4ef002d10c28.gif)
